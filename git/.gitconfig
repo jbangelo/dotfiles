@@ -1,0 +1,5 @@
+[alias]
+	smu = submodule update --checkout --recursive --init
+	push-new = "!git branch --show-current | xargs git push --set-upstream "
+[pull]
+	rebase = true
